@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+    <link  rel = "stylesheet" href="style.css"/>
+</head>
+<body>
+    <div class = "container">
+        <h1 class="form-title">Registration</h1>
+        <form action = "#">
+
+            <div class = "main-user-info">
+                <div class = "user-input-box">
+                    <label for = "fullName">Full Name</label>
+                    <input type="text" 
+                    name="fullName" 
+                    id="fullName"
+                    placeholder="Enter Full name">
+                </div>
+
+                <div class = "user-input-box">
+                    <label for = "userName">Username</label>
+                    <input type="text" 
+                    name="userName" 
+                    id="userName"
+                    placeholder="Enter Username">
+                </div>
+
+                <div class = "user-input-box">
+                    <label for = "email">Email id</label>
+                    <input type="text" 
+                    name="emailId" 
+                    id="emailId"
+                    placeholder="Enter your Email Id">
+                </div>
+
+                <div class = "user-input-box">
+                    <label for = "phoneNumber">PhoneNumber</label>
+                    <input type="text" 
+                    name="phoneNumber" 
+                    id="phoneNumber"
+                    placeholder="Enter Your Phone Number">
+                </div>
+
+                <div class = "user-input-box">
+                    <label for = "password">Password</label>
+                    <input type="text" 
+                    name="password" 
+                    id="password"
+                    placeholder="Enter password">
+                </div>
+
+                <div class = "user-input-box">
+                    <label for = "conformPassword">Conform Password</label>
+                    <input type="text" 
+                    name="conformPassword" 
+                    id="conformPassword"
+                    placeholder="Conform Password">
+                </div>
+
+                <div class = "gender-details-box">
+                    <span class = "gender-title">Gender</span>
+                    <div class = "gender-catagory">
+                        <input type="radio" name="gender" id="Male">
+                        <label for = "male">Male</label>
+                        <input type="radio" name="gender" id="Female">
+                        <label for = "female">Female</label>
+                        <input type="radio" name="gender" id="Others">
+                        <label for = "other">Others</label>
+                    </div>
+                </div>
+            </div>
+            <div class = "form-submit-btn">
+                    
+                <input type="submit" value="Register">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
